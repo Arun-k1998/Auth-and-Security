@@ -59,6 +59,7 @@ app.post('/register',function(req,res){
     }
     
 })
+console.log('authentication');
 
 let port = 4000;
 app.listen(port, function () {
